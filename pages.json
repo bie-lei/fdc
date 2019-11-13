@@ -1,0 +1,173 @@
+{
+	"pages": [
+		//pages_demo数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path":"pages/home/home",
+		"style":{}
+	},
+	{
+	  "path" : "pages/index/index",
+	  "style":{}
+	},
+	{
+	  "path" : "pages/house/house",
+	  "style" : {}
+	},
+	
+    //需要案例就将下面调到第一项
+    {
+    	"path": "pages_demo/basics/home",
+    	"style": {}
+    },
+    {
+    	"path": "pages_demo/component/home",
+    	"style": {}
+    },
+    {
+    	"path": "pages_demo/plugin/home",
+    	"style": {}
+    },
+		{
+			"path": "pages_demo/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/layout",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/background",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/text",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/icon",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/button",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/design",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/tag",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/avatar",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/progress",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/shadow",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/basics/loading",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/bar",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/nav",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/list",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/card",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/form",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/timeline",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/chat",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/swiper",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/modal",
+			"style": {}
+		},
+		{
+			"path": "pages_demo/component/steps",
+			"style": {}
+		}, {
+			"path": "pages_demo/plugin/indexes",
+			"style": {}
+		}, {
+			"path": "pages_demo/plugin/animation",
+			"style": {}
+		}, {
+			"path": "pages_demo/plugin/drawer",
+			"style": {}
+		}, {
+			"path": "pages_demo/plugin/verticalnav",
+			"style": {}
+		}
+
+    ],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+  "tabBar":{
+    "selectedColor":"#39b54a",
+    "list":[
+      {
+        "iconPath":"static/tabbar/basics.png",
+        "selectedIconPath":"static/tabbar/basics_cur.png",
+        "text":"基础",
+        "pagePath":"pages_demo/basics/home"
+      },
+      {
+        "iconPath":"static/tabbar/basics.png",
+        "selectedIconPath":"static/tabbar/basics_cur.png",
+        "text":"组件",
+        "pagePath":"pages_demo/component/home"
+      },
+      {
+        "iconPath":"static/tabbar/basics.png",
+        "selectedIconPath":"static/tabbar/basics_cur.png",
+        "text":"拓展",
+        "pagePath":"pages/home/home"
+      }
+    ]
+  },
+	"usingComponts": true,
+		"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+		]
+	}
+
+}

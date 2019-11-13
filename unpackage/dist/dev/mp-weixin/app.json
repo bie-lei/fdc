@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/house/house",
+    "pages_demo/basics/home",
+    "pages_demo/component/home",
+    "pages_demo/plugin/home",
+    "pages_demo/index/index",
+    "pages_demo/basics/layout",
+    "pages_demo/basics/background",
+    "pages_demo/basics/text",
+    "pages_demo/basics/icon",
+    "pages_demo/basics/button",
+    "pages_demo/basics/design",
+    "pages_demo/basics/tag",
+    "pages_demo/basics/avatar",
+    "pages_demo/basics/progress",
+    "pages_demo/basics/shadow",
+    "pages_demo/basics/loading",
+    "pages_demo/component/bar",
+    "pages_demo/component/nav",
+    "pages_demo/component/list",
+    "pages_demo/component/card",
+    "pages_demo/component/form",
+    "pages_demo/component/timeline",
+    "pages_demo/component/chat",
+    "pages_demo/component/swiper",
+    "pages_demo/component/modal",
+    "pages_demo/component/steps",
+    "pages_demo/plugin/indexes",
+    "pages_demo/plugin/animation",
+    "pages_demo/plugin/drawer",
+    "pages_demo/plugin/verticalnav"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "ColorUi for UniApp",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#39b54a",
+    "list": [
+      {
+        "iconPath": "static/tabbar/basics.png",
+        "selectedIconPath": "static/tabbar/basics_cur.png",
+        "text": "基础",
+        "pagePath": "pages_demo/basics/home"
+      },
+      {
+        "iconPath": "static/tabbar/basics.png",
+        "selectedIconPath": "static/tabbar/basics_cur.png",
+        "text": "组件",
+        "pagePath": "pages_demo/component/home"
+      },
+      {
+        "iconPath": "static/tabbar/basics.png",
+        "selectedIconPath": "static/tabbar/basics_cur.png",
+        "text": "拓展",
+        "pagePath": "pages/home/home"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "tab-bar": "/components/tabbar"
+  }
+}

@@ -1,0 +1,204 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 图标 */
+.card-img .iconfont{
+	display: inline-block;
+	font-size: 24rpx;
+	margin: 0 10rpx;
+}
+/* 搜索 */
+.action>text{
+	line-height: 25rpx;
+	font-size: 26rpx;
+}
+.cu-bar.search .action .iconfont{
+	color: rgb(255,186,1);
+	padding-right: 10rpx;
+}
+.search-form{
+	width: 410rpx;
+}
+.search-form>.iconfont{
+	font-size: 18rpx;
+	margin:0 15rpx 0 20rpx;
+}
+/* 明信片 */
+.postcard{
+	position: relative;
+}
+.postcard_tent{
+	position: absolute;
+	right: 58rpx;
+	top: 101rpx;
+}
+.postcard_xl{
+	position: absolute;
+	bottom: 34rpx;
+	right: 20rpx;
+	font-size: 16rpx;
+}
+.cu-tag.text-16{
+	font-weight:lighter;
+	 height: 27rpx;
+}
+/* 标题 */
+.gods-S>image{
+	width: 200rpx;
+	height: 68rpx;
+	margin-left: 20rpx;
+}
+.nav .gods-item {
+	display: inline-block;
+	line-height: 90rpx;
+	margin: 0 15rpx;
+	width: 281rpx;
+	height: 360rpx;
+}
+.gods-item>image{
+	height:216rpx;
+	display: block;
+	width: 100%;
+}
+.gods-text{
+	line-height: 1;
+	height: 112rpx;
+}
+.tubiao{
+	line-height: 25rpx;
+	width: 25rpx;
+	text-align: center;
+	margin-right: 10rpx;
+}
+/* 商品 */
+.cu-card.article>.cu-item .content.no-content{
+	padding: 30rpx 0;
+	margin: 0 20rpx;
+}
+.cu-card.article.no-card>.cu-item {
+	padding-bottom: 0;
+}
+.cu-card.article>.cu-item .content>image {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	width: 100%;
+	height: 220rpx;
+	margin-right: 0;
+	border-radius: 6rpx;
+}
+.cu-card.article>.cu-item .content.no-content .desc {
+	-webkit-box-flex: 1.3;
+	-webkit-flex: 1.3;
+	    -ms-flex: 1.3;
+	        flex: 1.3;
+	margin-left: 45rpx;
+}
+.search-form{
+	width: 410rpx;
+}
+.bottom{
+	margin-bottom: 100rpx;
+}
+
