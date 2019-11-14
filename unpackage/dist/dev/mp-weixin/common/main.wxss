@@ -1698,7 +1698,10 @@ to {
 .cu-bar.tabbar .action {
 	font-size: 22rpx;
 	position: relative;
-	/* flex: 1; */
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 	text-align: center;
 	padding: 0;
 	display: block;
@@ -3682,14 +3685,8 @@ scroll-view.cu-steps .cu-item {
 /* ==================
           文本
  ==================== */
-.text-16{
-	font-size: 16rpx;
-}
 .text-xs {
 	font-size: 20rpx;
-}
-.text-22{
-	font-size: 22rpx;
 }
 .text-sm {
 	font-size: 24rpx;
@@ -4758,7 +4755,7 @@ scroll-view.cu-steps .cu-item {
 	content: "\E601";
 }
 @font-face {
-	font-family: 'iconfont';
+	font-family: 'icon';
 	/* project id 1463421 */
 	src: url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.eot');
 	src: url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.eot?#iefix') format('embedded-opentype'),
@@ -4767,19 +4764,12 @@ scroll-view.cu-steps .cu-item {
 		url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.ttf') format('truetype'),
 		url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.svg#iconfont') format('svg');
 }
-.iconfont {
-	font-family: "iconfont" !important;
-	font-size: 16px;
+[class*="icon-"] {
+	font-family: "icon";
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
+	margin-right: 10rpx;
 }
 .icon-weixin:before {
 	content: "\E7E5";
@@ -4835,80 +4825,93 @@ scroll-view.cu-steps .cu-item {
 .icon-shangxia:before {
 	content: "\E64F";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben:before {
+.icon-huabanfuben:before {
 	content: "\E65F";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben1:before {
+.icon-huabanfuben1:before {
 	content: "\E660";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben2:before {
+.icon-huabanfuben2:before {
 	content: "\E661";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben3:before {
+.icon-huabanfuben3:before {
 	content: "\E662";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben4:before {
+.icon-huabanfuben4:before {
 	content: "\E663";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben5:before {
+.icon-huabanfuben5:before {
 	content: "\E664";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben6:before {
+.icon-huabanfuben6:before {
 	content: "\E665";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben7:before {
+.icon-huabanfuben7:before {
 	content: "\E666";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben8:before {
+.icon-huabanfuben8:before {
 	content: "\E667";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben9:before {
+.icon-huabanfuben9:before {
 	content: "\E668";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben10:before {
+.icon-huabanfuben10:before {
 	content: "\E669";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben11:before {
+.icon-huabanfuben11:before {
 	content: "\E66A";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben12:before {
+.icon-huabanfuben12:before {
 	content: "\E66B";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben13:before {
+.icon-huabanfuben13:before {
 	content: "\E66C";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben14:before {
+.icon-huabanfuben14:before {
 	content: "\E66D";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben15:before {
+.icon-huabanfuben15:before {
 	content: "\E66E";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben16:before {
+.icon-huabanfuben16:before {
 	content: "\E66F";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben17:before {
+.icon-huabanfuben17:before {
 	content: "\E670";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben18:before {
+.icon-huabanfuben18:before {
 	content: "\E671";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben19:before {
+.icon-huabanfuben19:before {
 	content: "\E672";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben20:before {
+.icon-huabanfuben20:before {
 	content: "\E673";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben21:before {
+.icon-huabanfuben21:before {
 	content: "\E674";
 }
-.icon-mifengicon-yizhuanqu_huaban:before {
+.icon-huaban:before {
 	content: "\E675";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben22:before {
+.icon-huabanfuben22:before {
 	content: "\E676";
 }
-.icon-mifengicon-yizhuanqu_huabanfuben23:before {
+.icon-huabanfuben23:before {
 	content: "\E677";
+}
+/* 字体 */
+.text-16{
+	font-size: 16rpx;
+}
+.text-22{
+	font-size: 22rpx;
+}
+.text-26{
+	font-size: 26rpx;
+}
+.text-40{
+	font-size: 40rpx;
 }
 .nav-list {
 	display: -webkit-box;

@@ -7492,9 +7492,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!******************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/pages.json ***!
-  \******************************************************/
+/*!*******************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/pages.json ***!
+  \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8399,20 +8399,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 
 /***/ }),
 /* 7 */
-/*!***********************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/pages.json?{"type":"style"} ***!
-  \***********************************************************************/
+/*!************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/pages.json?{"type":"style"} ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/house/house": { "usingComponents": {} }, "pages/index/index": { "usingComponents": {} }, "pages/home/home": { "usingComponents": {} }, "pages_demo/basics/home": { "usingComponents": {} }, "pages_demo/component/home": { "usingComponents": {} }, "pages_demo/plugin/home": { "usingComponents": {} }, "pages_demo/index/index": { "usingComponents": {} }, "pages_demo/basics/layout": { "usingComponents": {} }, "pages_demo/basics/background": { "usingComponents": {} }, "pages_demo/basics/text": { "usingComponents": {} }, "pages_demo/basics/icon": { "usingComponents": {} }, "pages_demo/basics/button": { "usingComponents": {} }, "pages_demo/basics/design": { "usingComponents": {} }, "pages_demo/basics/tag": { "usingComponents": {} }, "pages_demo/basics/avatar": { "usingComponents": {} }, "pages_demo/basics/progress": { "usingComponents": {} }, "pages_demo/basics/shadow": { "usingComponents": {} }, "pages_demo/basics/loading": { "usingComponents": {} }, "pages_demo/component/bar": { "usingComponents": {} }, "pages_demo/component/nav": { "usingComponents": {} }, "pages_demo/component/list": { "usingComponents": {} }, "pages_demo/component/card": { "usingComponents": {} }, "pages_demo/component/form": { "usingComponents": {} }, "pages_demo/component/timeline": { "usingComponents": {} }, "pages_demo/component/chat": { "usingComponents": {} }, "pages_demo/component/swiper": { "usingComponents": {} }, "pages_demo/component/modal": { "usingComponents": {} }, "pages_demo/component/steps": { "usingComponents": {} }, "pages_demo/plugin/indexes": { "usingComponents": {} }, "pages_demo/plugin/animation": { "usingComponents": {} }, "pages_demo/plugin/drawer": { "usingComponents": {} }, "pages_demo/plugin/verticalnav": { "usingComponents": {} } }, "globalStyle": { "navigationBarBackgroundColor": "#0081ff", "navigationBarTitleText": "ColorUi for UniApp", "navigationStyle": "custom", "navigationBarTextStyle": "black" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": {}, "pages/shop/shop": {}, "pages/home/home": {}, "pages/house/house": {}, "pages_demo/basics/home": {}, "pages_demo/component/home": {}, "pages_demo/plugin/home": {}, "pages_demo/index/index": {}, "pages_demo/basics/layout": {}, "pages_demo/basics/background": {}, "pages_demo/basics/text": {}, "pages_demo/basics/icon": {}, "pages_demo/basics/button": {}, "pages_demo/basics/design": {}, "pages_demo/basics/tag": {}, "pages_demo/basics/avatar": {}, "pages_demo/basics/progress": {}, "pages_demo/basics/shadow": {}, "pages_demo/basics/loading": {}, "pages_demo/component/bar": {}, "pages_demo/component/nav": {}, "pages_demo/component/list": {}, "pages_demo/component/card": {}, "pages_demo/component/form": {}, "pages_demo/component/timeline": {}, "pages_demo/component/chat": {}, "pages_demo/component/swiper": {}, "pages_demo/component/modal": {}, "pages_demo/component/steps": {}, "pages_demo/plugin/indexes": {}, "pages_demo/plugin/animation": {}, "pages_demo/plugin/drawer": {}, "pages_demo/plugin/verticalnav": {} }, "globalStyle": { "navigationBarBackgroundColor": "#0081ff", "navigationBarTitleText": "ColorUi for UniApp", "navigationStyle": "custom", "navigationBarTextStyle": "black" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!**********************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/pages.json?{"type":"stat"} ***!
-  \**********************************************************************/
+/*!***********************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/pages.json?{"type":"stat"} ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8532,9 +8532,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 15 */
-/*!**********************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/store/index.js ***!
-  \**********************************************************/
+/*!***********************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/store/index.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9534,9 +9534,9 @@ var index_esm = {
 
 /***/ }),
 /* 17 */
-/*!*********************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/utils/auth.js ***!
-  \*********************************************************/
+/*!**********************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/utils/auth.js ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9568,9 +9568,9 @@ function removeUserinfo() {
 
 /***/ }),
 /* 18 */
-/*!************************************************************!*\
-  !*** C:/Users/Administrator/Desktop/1111/utils/request.js ***!
-  \************************************************************/
+/*!*************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/nihao/utils/request.js ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -3,36 +3,39 @@
 		<cu-custom bgColor="bg-white">
 			<block slot="right" class="cu-bar search">
 				<view class="action margin-left-sm">
-					<text class="iconfont icon-dingwei"></text>
+					<text class="icon-dingwei"></text>
 					<text class="text-black text-bold">南宁</text>
 				</view>
 				<view class="search-form round solids">
-					<text class="iconfont">&#xe606;</text>
+					<text class="icon-sousuo"></text>
 					<input @focus="InputFocus" @blur="InputBlur" :adjust-position="false" type="text" placeholder="首月5折,自住2个月"
 					 confirm-type="search"></input>
 				</view>
 			</block>
 		</cu-custom>
-		<view class="padding-lr-sm card-img padding-bottom bg-white">
-			<view class="postcard bg-img text-bold" style="background-image: url(../../static/index-card.png);height: 375upx;">
-				<view class="postcard_tent text-black">
-					<view class="text-df">广西和园置业有限责任公司</view>
-					<view class="text-xl margin-top-lg">李理<view class="cu-tag text-16 bg-orange sm radius margin-left-xs">普通用户</view></view>
-					<view class="margin-top-xs text-22"><text class="iconfont icon-lianxi1"></text>15785412587</view>
-					<view class="margin-top-xs text-22"><text class="iconfont icon-weixin"></text>15785412587</view>
+		<view class="bg-img" style="background-image: url('../../static/index-card.png')"></view>
+		<view class="postcard padding-lr-sm">
+			<!-- 往上定位 -->
+			<view class="cu-card article" :class="isCard?'no-card':''">
+				<view class="bg-white padding-sm">
+					<view class="text-bold text-black">
+						<image class="postcard-img" src="https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg"
+						 mode="aspectFill"></image>
+						<view class="desc">
+							<view class="text-26">广西和园置业有限公司</view>
+							<view class="text-40">李理</view>
+							<view class="text-sm"><text class="icon-lianxi1"></text>12578462584</view>
+							<view class="text-sm"><text class="icon-weixin"></text>12587496354</view>
+						</view>
+					</view>
+					<view class="text-right text-sm text-gray">累计成交：1.5W</view>
 				</view>
-				<view class="postcard_xl">累计成交：1.5w</view>
 			</view>
-			<view class="flex justify-between padding-xs text-xs text-gray"> 
-				<view class="cu-item">
-					<text class="iconfont icon-mifengicon-yizhuanqu_huaban"></text> 100%房源房价
-				</view>
-				<view class="cu-item">
-					<text class="iconfont icon-mifengicon-yizhuanqu_huabanfuben20"></text> 优质保洁/急速维修
-				</view>
-				<view class="cu-item">
-					<text class="iconfont icon-mifengicon-yizhuanqu_huabanfuben22"></text>品质房源/放心呼吸
-				</view>
+			<view class="text-sm text-gray">展开全部名片信息<text class="cuIcon-unfold"></text></view>
+			<view class="flex text-sm text-gray">
+				<view><text class="icon-huaban"></text>100%房源放价</view>
+				<view><text class="icon-huabanfuben20"></text>优质保洁/极速维修</view>
+				<view><text class="icon-huabanfuben22"></text>品质房屋/放心呼吸</view>
 			</view>
 		</view>
 		<!-- 我的推荐 -->
@@ -91,6 +94,14 @@
 </script>
 
 <style>
+	/* 卡片 */
+	.bg-img{
+		height: 374upx;
+	}
+	.postcard-img{
+		width: 209upx;
+		height: 195upx;
+	}
 	/* 图标 */
 	.card-img .iconfont{
 		display: inline-block;
@@ -112,25 +123,6 @@
 	.search-form>.iconfont{
 		font-size: 18upx;
 		margin:0 15upx 0 20upx;
-	}
-	/* 明信片 */
-	.postcard{
-		position: relative;
-	}
-	.postcard_tent{
-		position: absolute;
-		right: 58upx;
-		top: 101upx;
-	}
-	.postcard_xl{
-		position: absolute;
-		bottom: 34upx;
-		right: 20upx;
-		font-size: 16upx;
-	}
-	.cu-tag.text-16{
-		font-weight:lighter;
-		 height: 27upx;
 	}
 	/* 标题 */
 	.gods-S>image{

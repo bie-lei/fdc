@@ -1682,7 +1682,7 @@ button.cuIcon.lg {
 .cu-bar.tabbar .action {
 	font-size: 22upx;
 	position: relative;
-	/* flex: 1; */
+	flex: 1;
 	text-align: center;
 	padding: 0;
 	display: block;
@@ -3735,16 +3735,9 @@ scroll-view.cu-steps .cu-item {
 /* ==================
           文本
  ==================== */
-.text-16{
-	font-size: 16upx;
-}
 
 .text-xs {
 	font-size: 20upx;
-}
-
-.text-22{
-	font-size: 22upx;
 }
 
 .text-sm {
@@ -3758,6 +3751,7 @@ scroll-view.cu-steps .cu-item {
 .text-lg {
 	font-size: 32upx;
 }
+
 .text-xl {
 	font-size: 36upx;
 }

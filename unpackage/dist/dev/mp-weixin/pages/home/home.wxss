@@ -1,0 +1,15 @@
+
+.cu-list.grid.no-border>.cu-item {
+	padding: 50rpx;
+}
+.cu-list.grid.no-border {
+	padding: 0
+}
+.cu-list.grid.no-border>.cu-item:after {
+	border: 1rpx solid rgba(0, 0, 0, 0.1);
+	/* border-bottom: 2upx solid red; */
+}
+.cu-list.grid>.cu-item>.iconfont {
+	font-size: 59rpx
+}
+

@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'iconfont';
+	font-family: 'icon';
 	/* project id 1463421 */
 	src: url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.eot');
 	src: url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.eot?#iefix') format('embedded-opentype'),
@@ -9,19 +9,12 @@
 		url('https://at.alicdn.com/t/font_1463421_m7w1bmwitxq.svg#iconfont') format('svg');
 }
 
-.iconfont {
-	font-family: "iconfont" !important;
-	font-size: 16px;
+[class*="icon-"] {
+	font-family: "icon";
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-.icon {
-  width: 1em;
-  height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
+	margin-right: 10upx;
 }
 
 .icon-weixin:before {
@@ -96,102 +89,102 @@
 	content: "\e64f";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben:before {
+.icon-huabanfuben:before {
 	content: "\e65f";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben1:before {
+.icon-huabanfuben1:before {
 	content: "\e660";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben2:before {
+.icon-huabanfuben2:before {
 	content: "\e661";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben3:before {
+.icon-huabanfuben3:before {
 	content: "\e662";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben4:before {
+.icon-huabanfuben4:before {
 	content: "\e663";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben5:before {
+.icon-huabanfuben5:before {
 	content: "\e664";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben6:before {
+.icon-huabanfuben6:before {
 	content: "\e665";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben7:before {
+.icon-huabanfuben7:before {
 	content: "\e666";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben8:before {
+.icon-huabanfuben8:before {
 	content: "\e667";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben9:before {
+.icon-huabanfuben9:before {
 	content: "\e668";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben10:before {
+.icon-huabanfuben10:before {
 	content: "\e669";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben11:before {
+.icon-huabanfuben11:before {
 	content: "\e66a";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben12:before {
+.icon-huabanfuben12:before {
 	content: "\e66b";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben13:before {
+.icon-huabanfuben13:before {
 	content: "\e66c";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben14:before {
+.icon-huabanfuben14:before {
 	content: "\e66d";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben15:before {
+.icon-huabanfuben15:before {
 	content: "\e66e";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben16:before {
+.icon-huabanfuben16:before {
 	content: "\e66f";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben17:before {
+.icon-huabanfuben17:before {
 	content: "\e670";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben18:before {
+.icon-huabanfuben18:before {
 	content: "\e671";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben19:before {
+.icon-huabanfuben19:before {
 	content: "\e672";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben20:before {
+.icon-huabanfuben20:before {
 	content: "\e673";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben21:before {
+.icon-huabanfuben21:before {
 	content: "\e674";
 }
 
-.icon-mifengicon-yizhuanqu_huaban:before {
+.icon-huaban:before {
 	content: "\e675";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben22:before {
+.icon-huabanfuben22:before {
 	content: "\e676";
 }
 
-.icon-mifengicon-yizhuanqu_huabanfuben23:before {
+.icon-huabanfuben23:before {
 	content: "\e677";
 }

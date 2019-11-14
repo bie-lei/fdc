@@ -94,13 +94,14 @@
 
 
 
-
-
-
-
-
-
-
+/* 卡片 */
+.bg-img{
+	height: 374rpx;
+}
+.postcard-img{
+	width: 209rpx;
+	height: 195rpx;
+}
 /* 图标 */
 .card-img .iconfont{
 	display: inline-block;
@@ -108,11 +109,11 @@
 	margin: 0 10rpx;
 }
 /* 搜索 */
-.action>text{
+.cu-bar.search .action>text{
 	line-height: 25rpx;
 	font-size: 26rpx;
 }
-.cu-bar.search .action .iconfont{
+.action .iconfont.icon-dingwei{
 	color: rgb(255,186,1);
 	padding-right: 10rpx;
 }
@@ -122,25 +123,6 @@
 .search-form>.iconfont{
 	font-size: 18rpx;
 	margin:0 15rpx 0 20rpx;
-}
-/* 明信片 */
-.postcard{
-	position: relative;
-}
-.postcard_tent{
-	position: absolute;
-	right: 58rpx;
-	top: 101rpx;
-}
-.postcard_xl{
-	position: absolute;
-	bottom: 34rpx;
-	right: 20rpx;
-	font-size: 16rpx;
-}
-.cu-tag.text-16{
-	font-weight:lighter;
-	 height: 27rpx;
 }
 /* 标题 */
 .gods-S>image{
@@ -163,12 +145,6 @@
 .gods-text{
 	line-height: 1;
 	height: 112rpx;
-}
-.tubiao{
-	line-height: 25rpx;
-	width: 25rpx;
-	text-align: center;
-	margin-right: 10rpx;
 }
 /* 商品 */
 .cu-card.article>.cu-item .content.no-content{
@@ -198,7 +174,8 @@
 .search-form{
 	width: 410rpx;
 }
-.bottom{
-	margin-bottom: 100rpx;
+.cuIcon-hotfill{
+	padding: 2rpx;
+	border-radius: 5rpx;
 }
 

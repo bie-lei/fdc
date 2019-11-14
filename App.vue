@@ -125,6 +125,7 @@
 	@import "colorui/main.css";
 	@import "colorui/icon.css";
 	@import "colorui/iconfont.css";
+	@import "colorui/pop.css";
 
 	.nav-list {
 		display: flex;

@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/home/home",
     "pages/index/index",
+    "pages/shop/shop",
+    "pages/home/home",
     "pages/house/house",
     "pages_demo/basics/home",
     "pages_demo/component/home",
@@ -41,24 +42,26 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "selectedColor": "#39b54a",
+    "selectedColor": "#FF7408",
+    "fontSize": "20px",
+    "height": "100px",
     "list": [
       {
-        "iconPath": "static/tabbar/basics.png",
-        "selectedIconPath": "static/tabbar/basics_cur.png",
-        "text": "基础",
-        "pagePath": "pages_demo/basics/home"
+        "iconPath": "static/tabbar/shouye.png",
+        "selectedIconPath": "static/tabbar/shouye_cur.png",
+        "text": "首页",
+        "pagePath": "pages/index/index"
       },
       {
-        "iconPath": "static/tabbar/basics.png",
-        "selectedIconPath": "static/tabbar/basics_cur.png",
-        "text": "组件",
-        "pagePath": "pages_demo/component/home"
+        "iconPath": "static/tabbar/fangyuan.png",
+        "selectedIconPath": "static/tabbar/fangyuan_cur.png",
+        "text": "房源",
+        "pagePath": "pages/house/house"
       },
       {
-        "iconPath": "static/tabbar/basics.png",
-        "selectedIconPath": "static/tabbar/basics_cur.png",
-        "text": "拓展",
+        "iconPath": "static/tabbar/wode.png",
+        "selectedIconPath": "static/tabbar/wode_cur.png",
+        "text": "我的",
         "pagePath": "pages/home/home"
       }
     ]
@@ -66,5 +69,6 @@
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom",
     "tab-bar": "/components/tabbar"
-  }
+  },
+  "sitemapLocation": "sitemap45.json"
 }
