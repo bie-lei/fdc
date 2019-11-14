@@ -1,6 +1,5 @@
 <template>
 	<view>
-		<!-- <cu-custom bgColor="bg-green"><block slot="content">首页</block></cu-custom> -->
 		<cu-custom bgColor="bg-white">
 			<block slot="right" class="cu-bar search">
 				<view class="action margin-left-sm">
@@ -55,26 +54,23 @@
 		</view>
 		<!-- 蜂群优选 -->
 		<view class="cu-card article no-card bg-white">
-			<view class="gods-S padding-top-xl">
-				<image src="../../static/title-fqyx.png"></image>
-			</view>
 			<view class="cu-item shadow">
 				<view class="content no-content solid-bottom" v-for="(item,index) in 3" :key="index">
 					<image src="../../static/house-1.png" mode="aspectFill"></image>
 					<view class="desc">
 						<view class="text-xl">大唐·臻观</view>
 						<view class="text-orange text-sm">￥<text class="text-xl">11000</text>/m²</view>
-						<view class="line-gray text-sm">青秀 凤岭南 | 建面 87-256m²</view>
-						<view>
+						<view class="line-gray text-22">青秀 凤岭南 | 建面 87-256m²</view>
+						<view class="text-16">
 							<view class="cu-tag line-gray light sm radius">大平层</view>
 							<view class="cu-tag line-gray light sm radius">精装修</view>
 						</view>
-						<view class="text-xs flex justify-between">
-							<view class="flex">
-								<text class="radius tubiao cuIcon-hotfill text-white bg-orange"></text>
-								<view class="text-sm">凤岭三中旁边大宅</view>
+						<view class="text-xs flex justify-between" style="align-items:baseline">
+							<view>
+								<text class="cuIcon-hotfill bg-gradual-orange margin-right-xs"></text>
+								<text>凤岭三中旁纯大宅</text>
 							</view>
-							<view class="cuIcon-unfold text-gray"></view>
+							<text class="cuIcon-unfold text-gray"></text>
 						</view>
 					</view>
 				</view>
@@ -102,7 +98,7 @@
 		margin: 0 10rpx;
 	}
 	/* 搜索 */
-	.action>text{
+	.cu-bar.search .action>text{
 		line-height: 25upx;
 		font-size: 26upx;
 	}
@@ -158,12 +154,6 @@
 		line-height: 1;
 		height: 112upx;
 	}
-	.tubiao{
-		line-height: 25rpx;
-		width: 25rpx;
-		text-align: center;
-		margin-right: 10rpx;
-	}
 	/* 商品 */
 	.cu-card.article>.cu-item .content.no-content{
 		padding: 30upx 0;
@@ -185,5 +175,9 @@
 	}
 	.search-form{
 		width: 410upx;
+	}
+	.cuIcon-hotfill{
+		padding: 2upx;
+		border-radius: 5upx;
 	}
 </style>
