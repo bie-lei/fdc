@@ -1,11 +1,11 @@
 <template>
-	<view class="bottom">
+	<view>
 		<!-- <cu-custom bgColor="bg-green"><block slot="content">首页</block></cu-custom> -->
 		<cu-custom bgColor="bg-white">
 			<block slot="right" class="cu-bar search">
-				<view class="action">
-					<text class="iconfont">&#xe617;</text>
-					<text>南宁</text>
+				<view class="action margin-left-sm">
+					<text class="iconfont icon-dingwei"></text>
+					<text class="text-black text-bold">南宁</text>
 				</view>
 				<view class="search-form round solids">
 					<text class="iconfont">&#xe606;</text>
@@ -80,7 +80,6 @@
 				</view>
 			</view>
 		</view>
-		<tab-bar :current="currentTabIndex" @click="tabClick"></tab-bar>
 	</view>
 </template>
 
@@ -88,14 +87,9 @@
 	export default {
 		data() {
 			return {
-				currentTabIndex:0
 			}
 		},
 		methods: {
-			tabClick(index){
-				console.log('返回tabBar索引' + index)
-				this.currentTabIndex = index
-			}
 		}
 	}
 </script>
@@ -112,7 +106,7 @@
 		line-height: 25upx;
 		font-size: 26upx;
 	}
-	.cu-bar.search .action .iconfont{
+	.action .iconfont.icon-dingwei{
 		color: rgb(255,186,1);
 		padding-right: 10upx;
 	}
@@ -191,8 +185,5 @@
 	}
 	.search-form{
 		width: 410upx;
-	}
-	.bottom{
-		margin-bottom: 100rpx;;
 	}
 </style>

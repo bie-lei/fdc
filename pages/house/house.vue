@@ -1,10 +1,10 @@
 <template>
-	<view class="bottom">
+	<view>
 		<cu-custom bgColor="bg-white">
 			<block slot="right" class="cu-bar search">
-				<view class="action">
-					<text class="iconfont">&#xe617;</text>
-					<text>南宁</text>
+				<view class="action margin-left-sm">
+					<text class="iconfont icon-dingwei"></text>
+					<text class="text-black text-bold">南宁</text>
 				</view>
 				<view class="search-form round solids">
 					<text class="iconfont">&#xe606;</text>
@@ -13,7 +13,7 @@
 				</view>
 			</block>
 		</cu-custom>
-		<view class="margin-bottom-xl">
+		<view>
 			<view class="cu-bar tabbar bg-white margin-tb-sm">
 				<view class="action flex-sub">
 					<view class="cuIcon-cu-image">
@@ -54,17 +54,17 @@
 			<scroll-view scroll-x class="bg-white nav">
 				<view class="flex no-pm margin-lr-sm text-df">
 					<view class="cu-item flex-sub ">
-						区域<view class="iconfont text-xs">&#xe64a;</view>
+						区域<text class="cuIcon-triangledownfill"></text>
 					</view>
 					<view class="cu-item flex-sub">
-						房型<view class="iconfont text-xs">&#xe64a;</view>
+						房型<text class="cuIcon-triangledownfill"></text>
 					</view>
 					<view class="cu-item flex-sub">
-						价格<view class="iconfont text-xs">&#xe64a;</view>
+						价格<text class="cuIcon-triangledownfill"></text>
 					</view>
 					<view class="flex-sub flex justify-between line-H">
-						<view>更多<view class="iconfont text-xs">&#xe64a;</view></view>
-						<view class="iconfont text-df">&#xe64f;</view>
+						<view>更多<text class="cuIcon-triangledownfill"></text></view>
+						<view class="iconfont icon-shangxia"></view>
 					</view>
 				</view>
 			</scroll-view>
@@ -75,25 +75,23 @@
 						<view class="desc">
 							<view class="text-xl">大唐·臻观</view>
 							<view class="text-orange text-sm">￥<text class="text-xl">11000</text>/m²</view>
-							<view class="line-gray text-sm">青秀 凤岭南 | 建面 87-256m²</view>
-							<view>
+							<view class="line-gray text-22">青秀 凤岭南 | 建面 87-256m²</view>
+							<view class="text-16">
 								<view class="cu-tag line-gray light sm radius">大平层</view>
 								<view class="cu-tag line-gray light sm radius">精装修</view>
 							</view>
-							<view class="text-xs flex justify-between">
-								<view class="flex">
-									<text class="radius tubiao cuIcon-hotfill text-white bg-orange"></text>
-									<view class="">凤岭三中旁边大宅</view>
+							<view class="text-xs flex justify-between" style="align-items:baseline">
+								<view>
+									<text class="cuIcon-hotfill bg-gradual-orange margin-right-xs"></text>
+									<text>凤岭三中旁纯大宅</text>
 								</view>
-								<view class="cuIcon-unfold text-gray"></view>
+								<text class="cuIcon-unfold text-gray"></text>
 							</view>
 						</view>
 					</view>
 				</view>
 			</view>
 	    </view>
-		<!-- 底部 -->
-		<tab-bar :current="currentTabIndex" @click="tabClick"></tab-bar>
 	</view>
 </template>
 
@@ -101,14 +99,9 @@
 	export default {
 		data() {
 			return {
-				currentTabIndex:1
 			}
 		},
 		methods: {
-			tabClick(index){
-				console.log('返回tabBar索引' + index)
-				this.currentTabIndex = index
-			}
 		}
 	}
 </script>
@@ -119,11 +112,11 @@
 		background-color: white;
 	}
 	/* 搜索 */
-	.action>text{
+	.cu-bar.search .action>text{
 		line-height: 25upx;
 		font-size: 26upx;
 	}
-	.action.flex-sub .iconfont{
+	.action .iconfont.icon-dingwei{
 		color: rgb(255,186,1);
 		padding-right: 10upx;
 	}
@@ -142,13 +135,8 @@
 		vertical-align: center;
 		height: 53upx;
 	}
-	.no-pm>.flex-sub .iconfont{
-		display: inline-block;
-		margin-left: 9upx;
-		font-size: 16upx;
-	}
-	.no-pm>.flex-sub.line-H>.iconfont{
-		font-size: 28upx;
+	.no-pm .flex-sub .cuIcon-triangledownfill{
+		font-size: 30upx;
 	}
 	/* 操作调one */
 	.cu-bar.tabbar .action.flex-sub .cuIcon-cu-image image {
@@ -159,16 +147,10 @@
 	/* 商品的样式 */
 	.gods-text{
 		flex: 1.3;
-		margin-left: 45rpx;
+		margin-left: 45upx;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: column;
-	}
-	.tubiao{
-		line-height: 25rpx;
-		width: 25rpx;
-		text-align: center;
-		margin-right: 10rpx;
 	}
 	.cu-card.article>.cu-item .content.no-content{
 		padding: 30upx 0;
@@ -188,7 +170,8 @@
 		flex: 1.3;
 		margin-left: 45rpx;
 	}
-	.bottom{
-		margin-bottom: 100rpx;;
+	.cuIcon-hotfill{
+		padding: 2upx;
+		border-radius: 5upx;
 	}
 </style>
